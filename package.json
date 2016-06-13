@@ -1,0 +1,26 @@
+{
+  "name": "hours-text",
+  "version": "1.0.0",
+  "description": "hours-text",
+  "main": "index.js",
+  "scripts": {
+     "test": "mocha --reporter spec"
+  },
+  "author": "“Raja <“raja.thavalam@senecaglobal.com”>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajathavalam/hours-text.git"
+  },
+  "keywords": [
+    "hours-text"
+  ],
+  "bugs": {
+    "url": "https://github.com/rajathavalam/hours-text/issues"
+  },
+  "homepage": "https://github.com/rajathavalam/hours-text#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
