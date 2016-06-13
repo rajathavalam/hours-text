@@ -3,12 +3,14 @@
 /**
  * Adds commas to a number
  * @param {number} number
+<<<<<<< HEAD
  * @return {string}
  */
 module.exports = function(hours) {
 		
 	   var d = new Date();
            var date = new Date();
+           var days = '';
 	   date.setHours(d.getHours() - hours);
            var seconds = Math.floor((new Date() - date) / 1000);
 
@@ -45,6 +47,5 @@ module.exports = function(hours) {
                 //return new Date(time).toLocaleDateString();
                 return date.getDate().toString() + " " + months[date.getMonth()] + ", " + date.getFullYear();
             }
-
 
 };

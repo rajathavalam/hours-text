@@ -1,20 +1,36 @@
 hours-text Formatter
 =========
 
-A small library that adds commas to numbers
+International Written Hours To XXX Time-Ago Farmat.
+
+Farmated Hours Showing like bellow:
+
+ 
+    1 hour ago
+    1 day ago
+    18 November, 2015
+    etc ..........
+
 
 ## Installation
 
-  `npm install @rajathavalam/hours-text`
+  `npm install hours-text`
 
 ## Usage
 
-    var numFormatter = require('@rajathavalam/hours-text');
+    var  hourstext = require('hours-text');
 
-    var formattedNum = numFormatter(35666);
-  
-  
-  Output should be `35,666`
+    var farmatdate = hourstext(1); 
+    console.log(farmatdate); // 1 hour ago
+    
+
+    var farmatdate = hourstext(25); 
+    console.log(farmatdate); // 1 day ago
+
+     var farmatdate = hourstext(5000); 
+     console.log(farmatdate); //  18 November, 2015
+
+
 
 
 ## Tests
