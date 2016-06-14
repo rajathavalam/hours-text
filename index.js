@@ -3,7 +3,6 @@
 /**
  * Adds commas to a number
  * @param {number} number
-<<<<<<< HEAD
  * @return {string}
  */
 module.exports = function(hours) {
@@ -34,13 +33,23 @@ module.exports = function(hours) {
                 else
                     return "1 hour ago";
             }
-            //2 days and no more
-            else if (seconds < 172800) {
+            //14 days and no more 2 days - 172800
+            else if (seconds < 1209600) {
                 days = Math.floor(seconds/86400)
-                if(days > 1)
-                    return days + " days ago";
-                else
+                if(days >= 7 && days <= 14)
+                {
+                   return "1 week ago";
+
+                 } else if(days >1) {
+
+                 return days + " days ago";
+
+
+                      }
+                    
+                else {
                     return "1 day ago";
+}
             }
             else{
 

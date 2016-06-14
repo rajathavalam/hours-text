@@ -1,6 +1,6 @@
 {
   "name": "hours-text",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "description": "hours-text",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,14 @@
     "url": "git+https://github.com/rajathavalam/hours-text.git"
   },
   "keywords": [
-    "hours-text"
+    "hours-text",
+    "time_ago_in_words",
+     "Calculate time_ago_in_words for javascript",
+     "timeago",
+     "TimeAgo",
+     "Time Ago"
+
+	
   ],
   "bugs": {
     "url": "https://github.com/rajathavalam/hours-text/issues"

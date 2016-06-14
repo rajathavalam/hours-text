@@ -14,9 +14,19 @@ describe('#numFormatter', function() {
         expect(result).to.equal('1 day ago');
     });
 
-    it('should convert one yaear back date', function() {
-        var result = hourstext(5000);
-        expect(result).to.equal('18 November, 2015');
+    it('should convert one week back text', function() {
+        var result = hourstext(168);
+        expect(result).to.equal('1 week ago');
+    });
+
+ it('should convert 6 days back', function() {
+        var result = hourstext(144);
+        expect(result).to.equal('6 days ago');
+    });
+
+ it('should convert one week back text', function() {
+        var result = hourstext(330);
+        expect(result).to.equal('1 week ago');
     });
 
     

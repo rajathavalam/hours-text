@@ -8,6 +8,7 @@ Farmated Hours Showing like bellow:
  
     1 hour ago
     1 day ago
+    1 week ago
     18 November, 2015
     etc ..........
 
@@ -27,7 +28,10 @@ Farmated Hours Showing like bellow:
     var farmatdate = hourstext(25); 
     console.log(farmatdate); // 1 day ago
 
-     var farmatdate = hourstext(5000); 
+    var farmatdate = hourstext(168); 
+    console.log(farmatdate); //  1 week ago
+
+     var farmatdate = hourstext(5000); //On 13th Jun 2016
      console.log(farmatdate); //  18 November, 2015
 
 
